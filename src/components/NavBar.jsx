@@ -1,4 +1,5 @@
 import logoImg from "../img/logo.png";
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import styles from "../NavBarStyle.module.css"
 function NavBar (){
@@ -6,18 +7,17 @@ function NavBar (){
         <nav className= {styles.navBar}>
             <ul>
                 <li>
-                    <a href="#">
-                        <img className= {styles.logoImg} src= {logoImg} alt="Logo de T-Shirt 10" />
-                    </a>
+                    <img className= {styles.logoImg} src= {logoImg} alt="Logo de T-Shirt 10" />
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="#">Catalogo</a>
+                    <Link to="Catalogo">Catalogo</Link>
                 </li>
                 <li>
-                    <a href="#">Carrito</a>
+                <Link to="Carrito">Carrito</Link>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                <Link to="Contacto">Contacto</Link>
                 </li>
             </ul>
             <CartWidget></CartWidget>

@@ -1,26 +1,20 @@
 import logoImg from "../img/logo.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
-import styles from "../NavBarStyle.module.css"
+import styles from "./NavBarStyle.module.css"
 function NavBar (){
     return (
-        <nav className= {styles.navBar}>
+        <nav className= {styles.navBarr}>
             <ul>
                 <li>
-                    <img className= {styles.logoImg} src= {logoImg} alt="Logo de T-Shirt 10" />
+                    <Link to="/">
+                        <img className= {styles.logoImg} src= {logoImg} alt="Logo de T-Shirt 10" />
+                    </Link>
                 </li>
-                <li>
-                <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="Catalogo">Selecciones Nacionales</Link>
-                </li>
-                <li>
-                <Link to="Carrito">Clubes de Europa</Link>
-                </li>
-                <li>
-                <Link to="Contacto">Contacto</Link>
-                </li>
+                <div className={styles.categories}>
+                    <NavLink to={`/category/ClubEuropa`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Clubes Europa</NavLink>
+                    <NavLink to={`/category/SelecionNacional`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Seleccion Nacional</NavLink>
+                </div>
             </ul>
             <CartWidget/>
         </nav>

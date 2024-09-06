@@ -1,7 +1,8 @@
+
 .logoImg{
     width: 70px;
 }
-.navBar{
+.navBarr{
     background-color: rgb(121, 121, 121);
     list-style-type: none;
     display: flex;
@@ -26,4 +27,10 @@ li{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
 }

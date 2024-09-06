@@ -1,9 +1,15 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
 
 .ListGroup{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 10px;
     background-color: rgb(252, 222, 168);
     border-radius: 10px;
 }

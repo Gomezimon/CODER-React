@@ -21,7 +21,6 @@ function ItemListContainer({mensaje}) {
         <div>
             <h1>{mensaje}</h1>
             <ItemList products={products}/>
-            <ItemCount initial= {1} stock= {10} onAdd= {(quantity) => console.log ("cantidad agregada", quantity)} />
         </div>
     )
 

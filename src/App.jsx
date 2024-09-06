@@ -5,6 +5,7 @@ import Carrito from "./pages/Carrito";
 import Contacto from "./pages/Contacto";
 import ItemListContainer from "./components/ItemsListContainer";
 import NavBar from "./components/NavBar";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDeteailContainer";
 function App (){
     return (
 
@@ -17,6 +18,7 @@ function App (){
                 <Route path="Contacto" element={<Contacto/>} />
             </Routes>
             <ItemListContainer mensaje = "Camisetas de tu seleccion favorita"/>
+            <ItemDetailContainer/>
         </BrowserRouter>
 
     )

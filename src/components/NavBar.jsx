@@ -8,19 +8,21 @@ function NavBar (){
             <ul>
                 <li>
                     <img className= {styles.logoImg} src= {logoImg} alt="Logo de T-Shirt 10" />
-                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="Catalogo">Catalogo</Link>
+                <Link to="/">Home</Link>
                 </li>
                 <li>
-                <Link to="Carrito">Carrito</Link>
+                    <Link to="Catalogo">Selecciones Nacionales</Link>
+                </li>
+                <li>
+                <Link to="Carrito">Clubes de Europa</Link>
                 </li>
                 <li>
                 <Link to="Contacto">Contacto</Link>
                 </li>
             </ul>
-            <CartWidget></CartWidget>
+            <CartWidget/>
         </nav>
 )};
 

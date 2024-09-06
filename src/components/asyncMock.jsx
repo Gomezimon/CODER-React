@@ -5,6 +5,7 @@ const products = [
         price: 18,
         img: "https://raw.githubusercontent.com/Gomezimon/javascript/main/assets/img/jersey/argentina.jpg",
         stock: 100,
+        category: "Seleccion Nacional",
         description: "Equipacion deportiva futbol, Argentina"
     },
     {
@@ -13,6 +14,7 @@ const products = [
         price: 16,
         img: "https://raw.githubusercontent.com/Gomezimon/javascript/main/assets/img/jersey/venezuela.jpg",
         stock: 80,
+        category: "Seleccion Nacional",
         descripcion: "Equipacion deportiva futbol, Venezuela"
     },
     {
@@ -21,6 +23,7 @@ const products = [
         price: 18,
         img: "https://raw.githubusercontent.com/Gomezimon/javascript/main/assets/img/jersey/colombia.jpg",
         stock: 85,
+        category: "Seleccion Nacional",
         descripcion: "Equipacion deportiva futbol, Colombia"
     }
 ]

@@ -13,7 +13,7 @@ function NavBar (){
                 </li>
                 <div className={styles.categories}>
                     <NavLink to={`/category/ClubEuropa`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Clubes Europa</NavLink>
-                    <NavLink to={`/category/SelecionNacional`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Seleccion Nacional</NavLink>
+                    <NavLink to={`/category/SeleccionNacional`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Seleccion Nacional</NavLink>
                 </div>
             </ul>
             <CartWidget/>

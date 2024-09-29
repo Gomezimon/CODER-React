@@ -15,7 +15,7 @@ const products = [
         img: "https://raw.githubusercontent.com/Gomezimon/javascript/main/assets/img/jersey/venezuela.jpg",
         stock: 80,
         category: "SeleccionNacional",
-        descripcion: "Equipacion deportiva futbol, Venezuela"
+        description: "Equipacion deportiva futbol, Venezuela"
     },
     {
         id: "3",
@@ -24,7 +24,7 @@ const products = [
         img: "https://raw.githubusercontent.com/Gomezimon/javascript/main/assets/img/jersey/colombia.jpg",
         stock: 85,
         category: "SeleccionNacional",
-        descripcion: "Equipacion deportiva futbol, Colombia"
+        description: "Equipacion deportiva futbol, Colombia"
     },
     {
         id: "4",
@@ -33,7 +33,7 @@ const products = [
         img: "https://us03-imgcdn.ymcart.com/92854/2024/08/24/a/7/a747a09cee6283c4.jpg?x-oss-process=image/quality,Q_90/auto-orient,1/resize,m_lfit,w_1500,h_1500/format,webp",
         stock: 58,
         category: "ClubEuropa",
-        descripcion: "Equipacion deportiva futbol, FC Barcelona"
+        description: "Equipacion deportiva futbol, FC Barcelona"
     },
     {
         id: "5",
@@ -42,7 +42,7 @@ const products = [
         img: "https://us03-imgcdn.ymcart.com/92854/2024/05/11/8/9/894d5655996a7bd4.jpg?x-oss-process=image/quality,Q_90/auto-orient,1/resize,m_lfit,w_1500,h_1500/format,webp",
         stock: 58,
         category: "ClubEuropa",
-        descripcion: "Equipacion deportiva futbol, Real Madrid"
+        description: "Equipacion deportiva futbol, Real Madrid"
     },
     {
         id: "6",
@@ -51,7 +51,7 @@ const products = [
         img: "https://us03-imgcdn.ymcart.com/92854/2024/06/19/f/e/fee2d81534ffa5f7.jpg?x-oss-process=image/quality,Q_90/auto-orient,1/resize,m_lfit,w_1500,h_1500/format,webp",
         stock: 58,
         category: "ClubEuropa",
-        descripcion: "Equipacion deportiva futbol, Manchester City"
+        description: "Equipacion deportiva futbol, Manchester City"
     }
 ]
 

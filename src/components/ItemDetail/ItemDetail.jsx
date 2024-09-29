@@ -12,7 +12,7 @@ const ItemDetail = ({ id, name, img, category,  price, stock, description}) => {
         setQuantityAdded(quantity)
 
         const item = {
-            id, name, price
+            id, name, price, description, img
         }
         addItem(item, quantity)
     }
@@ -30,7 +30,7 @@ const ItemDetail = ({ id, name, img, category,  price, stock, description}) => {
             </picture>
             <section>
                 <p className="Info">
-                    Descripcion
+                    {description}
                 </p>
                 <p className="Info">
                     Precio: ${price}

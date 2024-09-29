@@ -1,0 +1,21 @@
+.CartItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartImg{
+    width: 200px;
+}
+
+.removeItem{
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+    width: 100px;
+    border: 0px;
+}
+
+.removeItem:hover{
+    scale: 1.1;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.493);
+}

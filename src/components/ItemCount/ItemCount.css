@@ -12,7 +12,7 @@
 }
 
 .boton{
-    background-color: brown;
+    background-color: #c34a36;
     color: white;
     border-radius: 3px;
     border: 0px;
@@ -22,5 +22,5 @@
 
 .boton:hover{
     scale: 1.1;
-    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.493);
+    box-shadow: #19161b;
 }

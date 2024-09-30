@@ -1,0 +1,11 @@
+.CartWidget{
+    color: #ff8066;
+    font-size: 25px;
+}
+
+.CartWidget:hover{
+    scale: 1.1;
+    filter: drop-shadow(
+        3px 1px 1px #4b4453
+    );
+}

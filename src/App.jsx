@@ -5,6 +5,8 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDeteailCon
 import { CartProvider } from "./context/CartContext";
 import Footer from "./components/Footer/Footer";
 import Cart from "./components/Cart/Cart";
+import "./App.css"
+import Checkout from "./components/Checkout/Checkout";
 function App (){
     return (
         <BrowserRouter>
@@ -15,6 +17,7 @@ function App (){
                     <Route path="/category/:categoryId" element={<ItemListContainer/>} />
                     <Route path="/item/:ItemId" element={<ItemDetailContainer/>} />
                     <Route path="/cart" element={<Cart/>} />
+                    <Route path="/checkout" element={<Checkout/>} />
                     <Route path="*" element={<h1>404 NOT FOUND</h1>} />
                 </Routes>
                 <Footer/>
@@ -25,5 +28,3 @@ function App (){
 }
 
 export default App;
-
-//*ARREGLAR RUTAS, PAGINA PAGES VA FUERA DE COMPONENTS, DENTRO DE SRC

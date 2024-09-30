@@ -3,7 +3,9 @@
     width: 70px;
 }
 .navBarr{
-    background-color: rgb(121, 121, 121);
+    color: white;
+    font-size: 18px;
+    background-image: linear-gradient(to top, #4b4453, #5a4b6d, #685189, #7658a5, #845ec2);
     list-style-type: none;
     display: flex;
     justify-content: center;

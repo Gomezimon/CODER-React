@@ -22,8 +22,14 @@ const Cart = () => {
             <h3>Total: ${total}</h3>
             <div className='buttons'>
                 <button onClick={() => clearCart()} className="Button">Limpiar carrito</button>
-                <Link to='/checkout' className='checkout'>Checkout</Link>
             </div>
+            <form>
+                <label htmlFor='name'>Ingrese nombre</label>
+                <input type="text" name='name' id='name'/>
+                <label htmlFor="email">Ingrese email</label>
+                <input type="text" name="email" id="email" />
+            </form>
+            <Link to='/checkout' className='checkout'>Checkout</Link>
         </div>
     )
 }

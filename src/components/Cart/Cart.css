@@ -1,9 +1,24 @@
+.totalContainer {
+    color: white;
+}
+
 .Button{
     background-color: brown;
     color: white;
     border-radius: 3px;
     width: 100px;
     border: 0px;
+}
+
+.GoBack {
+    color: white;
+    padding: 2px;
+    margin-top: 10px;
+}
+.GoBack:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: #19161b;
 }
 
 .Button:hover{

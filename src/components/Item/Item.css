@@ -24,6 +24,11 @@
     
 }
 
+.divContainer .CardItem figure{
+    height: 500px;
+    object-fit: contain;
+}
+
 .divContainer .CardItem figure img{
     width: 100%;
     transform-origin: center;

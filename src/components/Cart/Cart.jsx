@@ -71,18 +71,20 @@ const Cart = () => {
 
     return (
         <div className='totalContainer'>
+            <h2>Mi carrito de compras</h2>
+            <hr className='hrLines'/>
             {cart.map(p => <CartItem key={p.id} {...p} />)}
             <h3>Total: ${total}</h3>
             <div className='buttons'>
                 <button onClick={() => clearCart()} className="Button">Limpiar carrito</button>
             </div>
-            <form onSubmit={submit}>
-                <div>
+            <form className='Form' onSubmit={submit}>
+                <div className='DivForm'>
                     <label htmlFor='name'>Ingrese nombre</label>
                     <input type="text" name='name' id='name' onChange={handleChange} value={buyer.name}/>
                     {error.name && <p className="error">{error.name}</p>}
                 </div>
-                <div>
+                <div className='DivForm'>
                     <label htmlFor="email">Ingrese email</label>
                     <input type="email" name="email" id="email" onChange={handleChange} value={buyer.email}/>
                     {error.email && <p className="error">{error.email}</p>}

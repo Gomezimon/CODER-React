@@ -1,3 +1,16 @@
-body{
+
+html, body {
     background-color: #161616;
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
 }

@@ -1,17 +1,36 @@
 .CartItem{
     display: flex;
-    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.CartDetailItem{
+    display: flex;
+    gap: 10px;
+    margin: 0px 10px 0px 10px;
 }
 
+.CartItem figure{
+    width: 100px;
+    height: 120px;
+    
+    
+}
 .cartImg{
-    width: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
 }
 
 .removeItem{
-    background-color: brown;
+    background-color: #c34a36;
     color: white;
+    padding: 2px;
     border-radius: 3px;
-    width: 100px;
     border: 0px;
 }
 

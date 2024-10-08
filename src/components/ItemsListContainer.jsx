@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "../components/ItemList/ItemList"
 import { getFirestore, collection, getDocs, query, where } from "firebase/firestore";
+import RandomImage from "./RandomImage/RandomImage";
+import './ItemListContainer.css'
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([]);
@@ -27,8 +29,13 @@ const ItemListContainer = () => {
     }, [categoryId]);
 
     return (
-        <div className="ItemListContainer">
-            <ItemList products={products} />
+        <div className="ListContainer">
+            <div className="ItemListContainer">
+                <ItemList products={products} />
+            </div>
+            <div className="RandomImg">
+                <RandomImage/>
+            </div>
         </div>
     );
 };

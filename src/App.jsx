@@ -7,6 +7,8 @@ import Footer from "./components/Footer/Footer";
 import Cart from "./components/Cart/Cart";
 import "./App.css"
 import Checkout from "./components/Checkout/Checkout";
+
+
 function App (){
     return (
         <BrowserRouter>

@@ -1,0 +1,32 @@
+.ListContainer {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+
+}
+
+.ItemListContainer{
+    flex: 2;
+    gap: 30px;
+    row-gap: 20px;
+}
+
+.RandomImg{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 0px 70px 120px 40px;
+}
+
+.RandomImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}

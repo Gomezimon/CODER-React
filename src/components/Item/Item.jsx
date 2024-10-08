@@ -5,7 +5,7 @@ const Item = ({id, name, img, price, stock}) => {
     return(
         <div className='divContainer'>
             <article className="CardItem">
-                <figure>
+                <figure className='ImgContainer'>
                     <img src={img} alt={name} className="ItemImg" />
                 </figure>
                     <h2 className="ItemHeader">
@@ -19,9 +19,9 @@ const Item = ({id, name, img, price, stock}) => {
                         Stock Disponible: {stock}
                     </p>
                 </section>
-                <footer className="ItemFooter">
+                <div className="ItemFooter">
                     <Link to={`/Item/${id}`} className='BotonDetalles'>Ver Detalles</Link>
-                </footer>
+                </div>
             </article>
         </div>
     )

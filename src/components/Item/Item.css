@@ -21,6 +21,7 @@
     overflow: hidden;
     border-radius: 16px;
     padding-bottom: 10px;
+    height: 630px;
     
 }
 
@@ -61,12 +62,12 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247);
 }
 
-footer .BotonDetalles{
+.BotonDetalles{
     background-color: #c34a36;
     color: white;
     border-radius: 3px;
     margin-top: 50px;
-    padding: 1px;
+    padding: 2px;
     margin-bottom: 10px;
     width: 100px;
     border: 0px;
@@ -74,6 +75,18 @@ footer .BotonDetalles{
 
 .BotonDetalles:hover{
     cursor: pointer;
-    scale: 1.1;
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.301);
+}
+
+/*media queries*/
+@media (max-width: 1024px) {
+    .divContainer .CardItem{
+        height: 480px;
+        font-size: 15px;
+    }
+
+    .divContainer .CardItem .ImgContainer {
+        height: 350px;
+        width: 200px;
+    }
 }

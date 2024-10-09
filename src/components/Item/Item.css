@@ -90,3 +90,17 @@
         width: 200px;
     }
 }
+
+@media (max-width: 425px) {
+
+    
+    .divContainer .CardItem{
+        height: 430px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        width: 170px;
+    }
+    .divContainer .CardItem .ImgContainer {
+        height: 300px;
+    }
+}

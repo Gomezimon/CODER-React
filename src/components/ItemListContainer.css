@@ -45,16 +45,17 @@
     }
 }
 
-@media (max-width: 425){
+@media (max-width: 425px){
     .ListContainer{
         padding: 0;
         margin: 0;
     }
 
-    .ListContainer .RandomImg{
-        text-align: center;
+    .RandomImg{
+        align-items: center;
+        justify-content: center;
         padding: 0;
-        margin: 0;
-        width: 100%;
+        margin: 14px 10px 0 14px;
+        width: 414px;
     }
 }

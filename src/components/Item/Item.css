@@ -104,3 +104,24 @@
         height: 300px;
     }
 }
+
+@media (max-width: 375px){
+    .divContainer .CardItem{
+        font-size: 13px;
+        margin-bottom: 20px;
+        width: 145px;
+    }
+}
+
+@media (max-width: 350px){
+    .divContainer .CardItem{
+        font-size: 13px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .divContainer .CardItem .ImgContainer {
+        height: 310px;
+        margin-bottom: 5px;
+    }
+}

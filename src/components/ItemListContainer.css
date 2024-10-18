@@ -59,3 +59,37 @@
         width: 414px;
     }
 }
+@media (max-width: 375px){
+
+    .ListContainer{
+        align-items: center;
+    }
+    .ItemListContainer{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border: solid red;
+    }
+    .RandomImg{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px){
+    .ListContainer{
+        align-items: center;
+    }
+
+    .RandomImg{
+        width: 90%;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .ItemListContainer{
+        width: 100%;
+    }
+}

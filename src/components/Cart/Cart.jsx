@@ -4,6 +4,8 @@ import { CartContext } from '../../context/CartContext';
 import CartItem from '../CartItem/CartItem';
 import { Link, useNavigate } from 'react-router-dom';
 import { collection, getFirestore,addDoc } from 'firebase/firestore';
+import { updateStock } from "../../services/firebase/firebaseServices"
+
 
 const Cart = () => {
     const [buyer, setBuyer] = useState({
@@ -51,8 +53,15 @@ const Cart = () => {
             date: new Date()
         }
 
+        
+
         addDoc(orderCollection, purchase)
         .then((res) => {
+            cart.forEach(item => {
+                updateStock(item.id, item.quantity)
+            })
+            clearCart();
+            
             navigate('/checkout', {state: { orderId: res.id}})
         })
         .catch((error) => {
